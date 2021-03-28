@@ -479,11 +479,6 @@ mark,
   height: auto;
 }
 
-.img-ajustar {
-  width: 148%;
-  height: auto;
-}
-
 .img-ajustar1 {
   width: 100%;
   height: 110%;
@@ -10264,7 +10259,7 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
+    font-size: 3.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
