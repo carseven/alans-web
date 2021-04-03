@@ -3,14 +3,14 @@
     * Copyright 2013-2021 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
     */
-    (function ($) {
+(function ($) {
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ==
-                this.pathname.replace(/^\//, "") &&
+            this.pathname.replace(/^\//, "") &&
             location.hostname == this.hostname
         ) {
             var target = $(this.hash);
@@ -43,9 +43,12 @@
 
     // Collapse Navbar
     var navbarCollapse = function () {
+        var img = document.getElementById('imageid');
         if ($("#mainNav").offset().top > 100) {
+            img.src = "assets/sepu/logopng.png";
             $("#mainNav").addClass("navbar-shrink");
         } else {
+            img.src = "";
             $("#mainNav").removeClass("navbar-shrink");
         }
     };
