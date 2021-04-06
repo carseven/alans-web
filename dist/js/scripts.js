@@ -45,10 +45,12 @@
     var navbarCollapse = function () {
         var img = document.getElementById('imageid');
         if ($("#mainNav").offset().top > 100) {
-            img.src = "assets/sepu/logopng.png";
+            img.src = "assets/sepu/logoBlanco331x122.png";
+            // img.className = "img-logo-title-white";
             $("#mainNav").addClass("navbar-shrink");
         } else {
-            img.src = "";
+            img.src = "assets/sepu/logoBlack331x122.png";
+            // img.className = "img-logo-title-black";
             $("#mainNav").removeClass("navbar-shrink");
         }
     };
